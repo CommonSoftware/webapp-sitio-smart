@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+    background: rgb(62,130,231);
+    background: linear-gradient(90deg, rgba(62,130,231,1) 0%, rgba(16,6,17,1) 100%);
+}
+
+.conteudo {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(17, 17, 17, 0.514);
+    gap: 24px;
+    width: 600px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.formulario-chave {
+    width: 160px;
+}
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Sarala&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(62,130,231);
+    background: linear-gradient(90deg, rgba(62,130,231,1) 0%, rgba(20,47,60,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 16px;
+    border-bottom: white solid 0.5px;
+
+}
+
+.cabecalho-logo {
+    height: 36px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 64px;
+}
+
+.cabecalho-item {
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+}
+
+.conteudo-primario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 16px;
+}
+
+.form-titulo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+    color: white;
+}
+
+.form-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.form-label {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.form-input {
+    width: 300px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-botao {
+    width: 300px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+}
+
+.loginsocial img {
+    width: 32px;
+}
+
+.conteudo-logo {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.conteudo-secundario-item {
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+    color: white;
+}
