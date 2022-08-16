@@ -74,10 +74,25 @@ body {
     height: 32px;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-botao:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
 }
 
 .loginsocial img {
     width: 32px;
+}
+
+.loginsocial button {
+    background: white;
+    border: none;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    padding: 2px 1px;
+    cursor: pointer;
 }
 
 .conteudo-logo {
